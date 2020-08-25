@@ -1,14 +1,17 @@
 {
-  "name": "chrome_ext_simple",
+  "name": "chrome-extension-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Boilerplate for Chrome extension with webpack and webextension-polyfill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hamalkari/chrome-extension-boilerplate.git"
+  },
+  "keywords": ["chrome", "extension", "boilerplate", "webpack", "hot reload", "webextension-polyfill"],
   "scripts": {
     "dev": "webpack --mode=development --watch",
     "build": "webpack --mode=production"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Halmakari <kosha.1997@bk.ru>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.11.4",
