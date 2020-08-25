@@ -1,5 +1,5 @@
 {
-  "name": "chrome-extension-webpack-boilerplate",
+  "name": "webpack-chrome-extension-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for Chrome extension with webpack and webextension-polyfill",
   "repository": {
@@ -12,7 +12,7 @@
     "build": "webpack --mode=production"
   },
   "author": "Halmakari <kosha.1997@bk.ru>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",
