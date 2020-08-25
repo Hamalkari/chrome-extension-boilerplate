@@ -1,0 +1,6 @@
+{
+  "name": "Chrome Extension Boilerplate",
+  "verion": "1.0.0",
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
