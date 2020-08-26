@@ -31,7 +31,8 @@
 - folders **src/{fonts,imgs,css}/** - all your static files 
 - folders **src/js/** - all your main js files (background.js, content.js, popup.js). If you want add library, add file in folder libs or install with **npm** and **add this library using es6 module** for example
 ```js
-import 'libs/jquery.min.js'; 
+import 'libs/jquery.min.js'; // load library from folder libs
+import 'jquery'; // load library from node.js
 ```
 
 Below you can see **src** folder and after build you get folder **dist**
